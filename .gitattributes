@@ -24,6 +24,20 @@
 *.mixer -text merge=unityyamlmerge diff
 *.shadervariants -text merge=unityyamlmerge diff
 
+#binary
+*.anim binary
+*.asset binary
+*.bytes binary
+*.controller binary
+*.dll binary
+*.fbx binary
+*.jpg binary
+*.mat binary
+*.png binary
+*.tga binary
+*.tif binary
+
+
 # Image formats
 *.psd filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
