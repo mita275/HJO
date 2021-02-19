@@ -36,7 +36,7 @@
 *.png binary
 *.tga binary
 *.tif binary
-
+*.aif binary
 
 # Image formats
 *.psd filter=lfs diff=lfs merge=lfs -text
